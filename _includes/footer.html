@@ -1,19 +1,19 @@
 <footer>
     <p>
       {% if site.github_username %}
-        <a href="https://github.com/sojung00" title="Github">
+        <a href="https://github.com/{{ site.github_username }}" title="Github">
           <svg><use xlink:href="#icon-github"></use></svg>
         </a>
       {% endif %}
         
       {% if site.linkedin_username %}
-        <a href="https://www.linkedin.com/in/sojung-nam-2a2b60209/" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">
           <svg><use xlink:href="#icon-linkedin"></use></svg>
         </a>
       {% endif %}
         
       {% if site.medium_username %}
-        <a href="https://medium.com/@namsojung93" title="Medium">
+        <a href="https://medium.com/@{{ site.medium_username }}" title="Medium">
           <svg><use xlink:href="#icon-medium"></use></svg>
         </a>
       {% endif %}
@@ -28,16 +28,16 @@
 </footer>
 
 {% assign social_urls = '' %}
-{% if site.github_username = 'sojung00' %}
-    {% assign social_urls = social_urls | append: 'https://github.com/sojung00' %}
+{% if site.github_username %}
+    {% assign social_urls = social_urls | append: '"https://github.com/' | append: site.github_username | append: '",' %}
 {% endif %}
 
-{% if site.linkedin_username = 'Sojung Nam' %}
-    {% assign social_urls = social_urls | append: 'https://www.linkedin.com/in/sojung-nam-2a2b60209/' %}
+{% if site.linkedin_username %}
+    {% assign social_urls = social_urls | append: '"https://www.linkedin.com/in/' | append: site.linkedin_username | append: '",' %}
 {% endif %}
 
-{% if site.medium_username = 'sojung' %}
-    {% assign social_urls = social_urls | append: 'https://medium.com/@namsojung93' %}
+{% if site.medium_username %}
+    {% assign social_urls = social_urls | append: '"https://medium.com/@' | append: site.medium_username | append: '",' %}
 {% endif %}
 
 <script type="application/ld+json">
