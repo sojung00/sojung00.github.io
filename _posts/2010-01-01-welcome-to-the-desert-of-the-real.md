@@ -6,9 +6,9 @@ subtitle: 'I want to travel abroad'
 description: >-
   Corona quickly end, please.
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
+  https://sojung.github.io/assets/img/uploads/in_airplane.jpeg
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
+  https://sojung.github.io/assets/img/uploads/in_airplane.jpeg
 category: blog
 tags:
   - daily
