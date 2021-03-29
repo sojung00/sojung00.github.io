@@ -39,6 +39,23 @@
         <meta name="keywords" content="{{ page.tags | join: ', ' }}">
     {% endif %}
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192811593-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-192811593-1');
+    </script>
+  
+    <!-- Naver site verification -->  
+    <meta name="naver-site-verification" content="4378df27a3478cd4104d98d880907ad67efd9ace" />
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="So what">
+    <meta property="og:description" content="Product Designer Sojung Nam's blog">
+    <meta property="og:url" content="https://sojung00.github.io/">
+    
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ title }}">
