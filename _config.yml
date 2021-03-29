@@ -1,8 +1,7 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Soooo
+title: Product Desinger Sojung
+description: blah blah blah
 tags:
   - blog
   - designer
@@ -21,18 +20,14 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
-disqus_username: disqus_username
+email: namsojung93@gmail.com
+disqus_username: sojung
 
 
 # Social Media Settings
-# Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: sojung00
+linkedin_username: Sojung Nam
+medium_username: sojung
 
 
 # Posts Settings
