@@ -28,16 +28,16 @@
 </footer>
 
 {% assign social_urls = '' %}
-{% if site.github_username = 'sojung00'}
-    {% assign social_urls = social_urls | append: '"https://github.com/sojung00' | append: site.github_username | append: '",' %}
+{% if site.github_username = 'sojung00' %}
+    {% assign social_urls = social_urls | append: 'https://github.com/sojung00' %}
 {% endif %}
 
-{% if site.linkedin_username = 'Sojung Nam'}
-    {% assign social_urls = social_urls | append: '"https://www.linkedin.com/in/sojung-nam-2a2b60209/' | append: site.linkedin_username | append: '",' %}
+{% if site.linkedin_username = 'Sojung Nam' %}
+    {% assign social_urls = social_urls | append: 'https://www.linkedin.com/in/sojung-nam-2a2b60209/' %}
 {% endif %}
 
-{% if site.medium_username = 'sojung'}
-    {% assign social_urls = social_urls | append: '"https://medium.com/@namsojung93' | append: site.medium_username | append: '",' %}
+{% if site.medium_username = 'sojung' %}
+    {% assign social_urls = social_urls | append: 'https://medium.com/@namsojung93' %}
 {% endif %}
 
 <script type="application/ld+json">
