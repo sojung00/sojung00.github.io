@@ -10,7 +10,7 @@ tags:
   - UI
   - UX designer
   - UXUI designer
-show_hero: true
+show_hero: false
 menu:
   - title: Home
     url: /
