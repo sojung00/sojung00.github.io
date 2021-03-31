@@ -1,22 +1,19 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Soooo
+title: Product Desinger Sojung
+description: blah blah blah
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-show_hero: true
+  - designer
+  - product designer
+  - UX
+  - UI
+  - UX designer
+  - UXUI designer
+show_hero: false
 menu:
   - title: Home
     url: /
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@test.com
-disqus_username: disqus_username
+email: namsojung93@gmail.com
+disqus_username: disqus_YvgOPTmYLH
