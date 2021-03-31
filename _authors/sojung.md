@@ -4,7 +4,7 @@ photo: /assets/img/uploads/profile.png
 name: sojung
 display_name: sojung
 position: Product Desinger
-bio: Umm
+bio: Product Desinger Sojung
 github_username: sojung00
 facebook_username:
 twitter_username:
